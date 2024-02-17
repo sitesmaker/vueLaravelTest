@@ -17,7 +17,6 @@ class MessageFactory extends Factory
     
     public function definition(): array
     {
-        var_dump(func_get_args());
         return [
             'name' => fake()->name,
             'text' => fake()->text,
